@@ -2,7 +2,10 @@
 
 ![](https://cdn.icon-icons.com/icons2/390/PNG/512/tic-tac-toe_39453.png)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 65611bd27b5c5b46517fa8963e250219eea6b8b8
   - A jogada sempre será iniciada pelo jogador 1
   - O jogador 1 marca o ponto -1
   - O jogador 2 marca o ponto 1
