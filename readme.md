@@ -1,6 +1,7 @@
 # Jogo da Velha
 
-![N|Solid](imagens/logica.png)
+!](https://cdn.icon-icons.com/icons2/390/PNG/512/tic-tac-toe_39453.png)
+
 
   - A jogada sempre será iniciada pelo jogador 1
   - O jogador 1 marca o ponto -1
