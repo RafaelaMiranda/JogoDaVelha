@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="style.css">
 		<title>Jogo da velha</title>
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="jogo.js"></script>
 	</head>
 
 	<body>
@@ -19,15 +20,15 @@
 						<td align="center">
 							<img src="imagens/jogador_1.png">
 							<br>
-							<input type="text" maxlength="10" placeholder="Digite seu apelido">
+							<input id="entrada_apelido_jogador_1" type="text" maxlength="10" placeholder="Digite seu apelido">
 						</td>
 						<td align="center">
-							<img src="imagens/iniciar.png">
+							<img id="btn_iniciar_jogo" src="imagens/iniciar.png">
 						</td>
 						<td align="center">
 							<img src="imagens/jogador_2.png">
 							<br>
-							<input type="text" maxlength="10" placeholder="Digite seu apelido">
+							<input id="entrada_apelido_jogador_2" type="text" maxlength="10" placeholder="Digite seu apelido">
 						</td>
 					</tr>
 				</tbody>
@@ -37,57 +38,59 @@
 		<div id="palco_jogo">
 			<div class="jogo">
 				<img src="imagens/jogador_1.png">
+				<br>
+				<span id="nome_jogador_1"></span>
 			</div>
 
 			<div class="jogo">
 				<table> 
 					<tr>
 						<td class="inferior-direita">
-							<div class="tabela">
+							<div class="jogada tabela" id="a-1">
 
 							</div>
 						</td>
 						<td class="inferior-direita">
-							<div class="tabela">
+							<div class="jogada tabela" id="a-2">
 
 							</div>
 						</td>
 						<td class="inferior">
-							<div class="tabela">
+							<div class="jogada tabela" id="a-3">
 
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td class="inferior-direita">
-							<div class="tabela">
+							<div class="jogada tabela" id="b-1">
 
 							</div>
 						</td>
 						<td class="inferior-direita"> 
-							<div class="tabela">
+							<div class="jogada tabela" id="b-2">
 
 							</div>
 						</td>
 						<td class="inferior">
-							<div class="tabela">
+							<div class="jogada tabela" id="b-3">
 
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td class="direita">
-							<div class="tabela">
+							<div class="jogada tabela" id="c-1">
 
 							</div>
 						</td>
 						<td class="direita">
-							<div class="tabela">
+							<div class="jogada tabela" id="c-2">
 
 							</div>
 						</td>
 						<td>
-							<div class="tabela">
+							<div class="jogada tabela" id="c-3">
 
 							</div>
 						</td>
@@ -97,6 +100,8 @@
 
 			<div class="jogo">
 				<img src="imagens/jogador_2.png">
+				<br>
+				<span id="nome_jogador_2"></span>
 			</div>
 		</div>
 	</body>
