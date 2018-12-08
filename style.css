@@ -1,0 +1,30 @@
+input{
+    border: 0px;
+}
+
+.jogo{
+    display: inline-block;
+}
+
+#palco_jogo{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.tabela{
+    width: 100px;
+    height: 100px;
+}
+
+.inferior-direita{
+    border-bottom: solid 1px red;
+    border-right: solid 1px red;
+}
+
+.inferior{
+    border-bottom: solid 1px red;
+}
+
+.direita{
+    border-right: solid 1px red;
+}

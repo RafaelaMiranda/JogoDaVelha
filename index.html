@@ -3,11 +3,101 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="icon" href="https://cdn.icon-icons.com/icons2/390/PNG/512/tic-tac-toe_39453.png">
+		<link rel="stylesheet" href="style.css">
 		<title>Jogo da velha</title>
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
+		<div id="pagina_inicial" align="center">
+			<table width="600px">
+				<tbody>
+					<tr>
+						<td colspan="3" align="center" >JOGO DA VELHA</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<img src="imagens/jogador_1.png">
+							<br>
+							<input type="text" maxlength="10" placeholder="Digite seu apelido">
+						</td>
+						<td align="center">
+							<img src="imagens/iniciar.png">
+						</td>
+						<td align="center">
+							<img src="imagens/jogador_2.png">
+							<br>
+							<input type="text" maxlength="10" placeholder="Digite seu apelido">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 
+		<div id="palco_jogo">
+			<div class="jogo">
+				<img src="imagens/jogador_1.png">
+			</div>
+
+			<div class="jogo">
+				<table> 
+					<tr>
+						<td class="inferior-direita">
+							<div class="tabela">
+
+							</div>
+						</td>
+						<td class="inferior-direita">
+							<div class="tabela">
+
+							</div>
+						</td>
+						<td class="inferior">
+							<div class="tabela">
+
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="inferior-direita">
+							<div class="tabela">
+
+							</div>
+						</td>
+						<td class="inferior-direita"> 
+							<div class="tabela">
+
+							</div>
+						</td>
+						<td class="inferior">
+							<div class="tabela">
+
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="direita">
+							<div class="tabela">
+
+							</div>
+						</td>
+						<td class="direita">
+							<div class="tabela">
+
+							</div>
+						</td>
+						<td>
+							<div class="tabela">
+
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="jogo">
+				<img src="imagens/jogador_2.png">
+			</div>
+		</div>
 	</body>
 </html>
