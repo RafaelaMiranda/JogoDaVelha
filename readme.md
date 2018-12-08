@@ -1,7 +1,5 @@
 # Jogo da Velha
 
-![N|Solid](imagens/logica.png)
-
   - A jogada sempre será iniciada pelo jogador 1
   - O jogador 1 marca o ponto -1
   - O jogador 2 marca o ponto 1
